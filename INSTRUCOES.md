@@ -43,7 +43,7 @@ Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo vis
 - NUNCA citar marca de equipamento (painel, inversor, microinversor, bateria).
 - NUNCA citar nome de cliente nem endereço.
 - Não inventar números (percentuais de perda, preços, prazos de payback) sem fonte; preferir afirmações gerais e verdadeiras.
-- Preço de kit e condição de financiamento: ainda NÃO informados → posts de sexta sem valores fixos (ex.: "parcela que cabe no lugar da conta de luz").
+- Preços e parcelas: usar SOMENTE `financiamento.json` (tabela da Sol + simulação de 09/10). Nos posts, mostrar a menor parcela (96x) ou 84x, sempre com "a partir de", "aproximado" e "sujeito à aprovação de crédito". Kits da campanha (8, 12 e 16 placas, com microinversor) têm prioridade nos posts de oferta. Comparar a parcela com o valor da energia gerada (`energia_gerada_vale_R$_mes`), sem prometer conta zerada (sempre sobra a taxa mínima da CPFL).
 
 ## Passo 4 – legenda
 Tom próximo, regional, direto. Estrutura: gancho na 1ª linha (com 1 emoji) → 2–3 frases de valor → CTA com WhatsApp (17) 99671-7575 → 4–6 hashtags (#energiasolar #riopreto #sjriopreto + específicas + #gwfotovoltaica). Máx. ~600 caracteres. Salvar em `posts/AAAA-MM-DD/legenda.txt`.

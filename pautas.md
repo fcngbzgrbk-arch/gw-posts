@@ -30,7 +30,10 @@
 - Sua conta subiu mesmo com solar? Possíveis motivos (consumo aumentou, taxa mínima, créditos)
 - Revisão preventiva: o que a GW verifica
 
-## PARCELA × CONTA (sex) – sem valores fixos até o Maicon informar
+## PARCELA × CONTA (sex) – números em financiamento.json
+- Kit 8 placas (campanha): energia de ~R$ 534/mês × parcela a partir de 96x R$ 397,62
+- Kit 12 placas (campanha): energia de ~R$ 801/mês × parcela a partir de 96x R$ 546,73
+- Kit 16 placas (campanha): energia de ~R$ 1.068/mês × parcela a partir de 96x R$ 702,46
 - Troque a conta de luz por uma parcela de algo que é seu
 - Simulação grátis pelo WhatsApp: mande a foto da sua conta
 - Energia solar valoriza o imóvel
