@@ -31,9 +31,9 @@
 - Revisão preventiva: o que a GW verifica
 
 ## PARCELA × CONTA (sex) – números em financiamento.json
-- Kit 8 placas (campanha): energia de ~R$ 534/mês × parcela a partir de 96x R$ 397,62
-- Kit 12 placas (campanha): energia de ~R$ 801/mês × parcela a partir de 96x R$ 546,73
-- Kit 16 placas (campanha): energia de ~R$ 1.068/mês × parcela a partir de 96x R$ 702,46
+- Kit 8 placas (campanha): energia de ~R$ 534/mês × parcela a partir de 96x R$ 277,45
+- Kit 12 placas (campanha): energia de ~R$ 801/mês × parcela a partir de 96x R$ 381,50
+- Kit 16 placas (campanha): energia de ~R$ 1.068/mês × parcela a partir de 96x R$ 490,17
 - Troque a conta de luz por uma parcela de algo que é seu
 - Simulação grátis pelo WhatsApp: mande a foto da sua conta
 - Energia solar valoriza o imóvel
