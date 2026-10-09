@@ -37,6 +37,7 @@ Campos do spec: `foto` (ex. `fotos/097.jpg`), `fy` (0–1, enquadramento vertica
 Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo visível. Ajustar `fy`/`tsize` se precisar.
 
 ## Regras fixas (do Maicon)
+- Economia prometida: "média de 80%" na conta (nunca "até 95%").
 - Geração: SEMPRE 75 kWh/mês por placa. Tarifa CPFL: R$ 0,89/kWh. Economia = placas × 75 × 0,89 (o arte.py já faz).
 - WhatsApp: (17) 99671-7575 (nunca o antigo 3363-5028). Rio Preto e região. 7 anos de mercado.
 - NUNCA citar marca de equipamento (painel, inversor, microinversor, bateria).
@@ -62,5 +63,7 @@ Se o "ok" chegar depois do horário, publicar na hora.
 Windsor.ai `execute_action`:
 1. connector `instagram`, account `17841428432441084`, action `create_image_post`, params `{image_url: <arte_feed raw URL>, caption: <legenda>}`
 2. connector `instagram`, mesma conta, action `create_story`, params `{image_url: <arte_story raw URL>}`
-3. connector `facebook_organic`, account `430641700123072` (GW Fotovoltaica - Energia Solar Rio Preto — NÃO usar a 110901733778456), action `create_photo_post`, params `{image_url: <arte_feed raw URL>, caption: <legenda>}`
+3. connector `facebook_organic`, action `create_photo_post`, params `{image_url: <arte_feed raw URL>, caption: <legenda>}` — publicar nas DUAS páginas (decisão do Maicon em 09/10, até ele escolher a oficial):
+   - account `110901733778456` ("GW Fotovoltáica", facebook.com/gwfotovoltaica, página antiga com o público)
+   - account `430641700123072` ("GW Fotovoltaica - Energia Solar Rio Preto", ligada ao Instagram)
 Registrar os IDs retornados em `posts.json` (status `publicado`), marcar a foto como usada em `fotos.json`, push, e avisar o Maicon em uma linha. Se alguma ação falhar, avisar qual e por quê; não repetir uma ação que já deu certo.
