@@ -33,6 +33,7 @@ Escolher a pauta em `pautas.md` que ainda não foi usada (ver `posts.json`). Pod
 
 ## Passo 3 – arte
 `python3 arte.py spec.json posts/AAAA-MM-DD/arte` gera `arte_feed.jpg` (1080x1350) e `arte_story.jpg` (1080x1920).
+Visual = padrão aprovado no Claude Design em 09/10 (foto no topo, painel escuro arredondado, selo, logo, caixas de números, botão verde). Campos do spec: foto, selo, kicker, titulo, destaque, sub, stats ou placas, cta, tsize, fy, acento. Ferramenta de criação: Claude Design (o Maicon não usa mais Canva); Reels são editados pelo Claude a partir dos vídeos que ele mandar.
 Campos do spec: `foto` (ex. `fotos/097.jpg`), `fy` (0–1, enquadramento vertical), `selo`, `kicker`, `titulo`, `destaque` (trecho do título em amarelo), `tsize` (padrão 74; reduzir se o título for longo), e **um** dos dois: `placas` (calcula kWh e R$ sozinho) ou `sub` (texto de apoio).
 Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo visível. Ajustar `fy`/`tsize` se precisar.
 
