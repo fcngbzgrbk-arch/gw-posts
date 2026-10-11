@@ -27,5 +27,15 @@
   "status": "aprovado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01SHshrKX7hGbhUjMMPwfz7o"
+ },
+ {
+  "data": "2026-10-12",
+  "hora": "20:00",
+  "modelo": "OBRA REAL",
+  "pauta": "Obra comercial: energia solar para empresa reduzir custo fixo",
+  "foto": "fotos/010.jpg",
+  "obra": "obra10",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
