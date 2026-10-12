@@ -41,12 +41,13 @@
  },
  {
   "data": "2026-10-12",
-  "hora": "19:00",
+  "hora": "18:55",
   "modelo": "DATA ESPECIAL",
   "pauta": "Dia das Crianças: energia limpa e futuro",
-  "foto": "ilustração (Claude Design)",
+  "foto": "fotos/005.jpg",
   "pasta": "posts/2026-10-12-criancas",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "obra": "obra05"
  }
 ]
