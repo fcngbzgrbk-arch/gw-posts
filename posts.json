@@ -24,9 +24,10 @@
   "pauta": "Como é o processo: visita, projeto, homologação, instalação, ligação",
   "foto": "fotos/097.jpg",
   "obra": "obra17",
-  "status": "aprovado",
+  "status": "nao_publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01SHshrKX7hGbhUjMMPwfz7o"
+  "agendamento": "trig_01SHshrKX7hGbhUjMMPwfz7o",
+  "obs": "falhou em 11/10 (limite de uso); remarcado para 2026-10-14"
  },
  {
   "data": "2026-10-12",
@@ -55,5 +56,27 @@
    "fb_430641700123072": "430641700123072_122215976666482996",
    "fb_110901733778456": "110901733778456_1770960048368942"
   }
+ },
+ {
+  "data": "2026-10-14",
+  "hora": "20:00",
+  "modelo": "BASTIDORES",
+  "pauta": "Como é o processo: visita, projeto, homologação, instalação, ligação",
+  "foto": "fotos/097.jpg",
+  "obra": "obra17",
+  "pasta": "posts/2026-10-11",
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_017jpP6wtAinqXeXWNbh2bsk"
+ },
+ {
+  "data": "2026-10-13",
+  "hora": "20:00",
+  "modelo": "MITO OU VERDADE?",
+  "pauta": "Precisa de bateria para funcionar? (mito)",
+  "foto": "fotos/007.jpg",
+  "obra": "obra07",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
