@@ -35,6 +35,18 @@
   "pauta": "Obra comercial: energia solar para empresa reduzir custo fixo",
   "foto": "fotos/010.jpg",
   "obra": "obra10",
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01Uhoq3qU2mK2zR1wr6so2Yg"
+ },
+ {
+  "data": "2026-10-12",
+  "hora": "19:00",
+  "modelo": "DATA ESPECIAL",
+  "pauta": "Dia das Crianças: energia limpa e futuro",
+  "foto": "fotos/005.jpg",
+  "obra": "obra05",
+  "pasta": "posts/2026-10-12-criancas",
   "status": "aguardando_aprovacao",
   "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
