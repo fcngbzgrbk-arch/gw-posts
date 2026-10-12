@@ -46,8 +46,14 @@
   "pauta": "Dia das Crianças: energia limpa e futuro",
   "foto": "fotos/005.jpg",
   "pasta": "posts/2026-10-12-criancas",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "obra": "obra05"
+  "obra": "obra05",
+  "ids": {
+   "ig_feed": "18123531934803385",
+   "ig_story": "18054196085811749",
+   "fb_430641700123072": "430641700123072_122215976666482996",
+   "fb_110901733778456": "110901733778456_1770960048368942"
+  }
  }
 ]
