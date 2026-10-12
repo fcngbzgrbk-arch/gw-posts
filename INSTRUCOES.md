@@ -25,6 +25,9 @@ Ler `posts.json`. Se já existe entrada com a data de hoje (qualquer status dife
 Horários vêm dos "Horários ativos" do Meta Business Suite (IG ativo 19h–20h, FB 21h–22h). Fuso: America/Sao_Paulo.
 Escolher a pauta em `pautas.md` que ainda não foi usada (ver `posts.json`). Pode criar pautas novas no mesmo espírito.
 
+## Pesquisa de concorrentes (pedido do Maicon em 12/10: "sempre me traga coisas novas")
+Toda semana (tarefa de domingo) pesquisar o que os concorrentes que mais performam estão fazendo (Biblioteca de Anúncios da Meta para Rio Preto e Brasil, perfis de energia solar com mais engajamento), registrar ganchos/formatos novos em `pautas.md` (seção NOVAS) e dar prioridade a essas pautas nos posts da semana. Nunca copiar arte nem citar concorrente pelo nome; adaptar às regras da GW.
+
 ## Passo 2 – foto
 `fotos.json` lista as fotos de `fotos/`. Usar só `status: disponivel` e `tipo: instalacao` (as `antes_sem_placas` servem só para posts de "antes e depois" ou bastidores).
 - OBRA REAL: preferir foto com `placas` preenchido (os números aparecem na arte). Se não houver, usar foto de drone bonita e trocar os números por um texto (`sub`), sem inventar quantidade de placas.

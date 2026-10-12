@@ -45,3 +45,11 @@
 - Como é o processo: visita, projeto, homologação, instalação, ligação
 - Equipe GW em campo (só com fotos reais da equipe)
 - Pergunte para quem já tem: indicação de clientes
+
+## NOVAS (pesquisa de concorrentes 12/10 — Biblioteca de Anúncios Meta, Rio Preto)
+O que os concorrentes locais estão anunciando agora: Atlas Solar e Pro Energy ("Conta acima de R$ 300/500? Simule grátis"), EcoPower Rio Preto ("Energia solar em até 36x sem juros"), Arena Solar ("Redução de até 90%"), iGreen ("Paga mais de 150 reais de energia?" — assinatura/desconto, não instala usina), Ineer (foco em empresas).
+- Gancho que qualifica: "Sua conta de luz passa de R$ 300? Então você já paga um sistema solar todo mês" (PARCELA × CONTA / OBRA REAL)
+- MITO OU VERDADE: "Assinatura de energia com desconto é a mesma coisa que ter energia solar?" (mito: no desconto você continua pagando para sempre; com o sistema, a usina é sua e valoriza o imóvel). Não citar nomes de concorrentes.
+- "Manda a foto da sua conta que a gente calcula": post-tutorial mostrando onde ver o consumo (kWh) na conta da CPFL
+- Prova honesta: "A gente fala em média de 80% porque sempre sobra a taxa mínima da CPFL. Desconfie de promessa de conta zerada" (diferencial contra quem promete 90%+)
+- Empresas: "Custo fixo de energia da sua empresa" com número real de obra comercial (ex.: 48 placas)
