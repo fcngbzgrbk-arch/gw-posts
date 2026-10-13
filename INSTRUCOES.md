@@ -43,6 +43,7 @@ Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo vis
 Ferramenta de criação: Claude Design (o Maicon não usa mais Canva); Reels são editados pelo Claude a partir dos vídeos que ele mandar.
 
 ## Regras fixas (do Maicon)
+- PÚBLICO-ALVO (decisão do Maicon em 13/10): quem paga ACIMA DE R$ 400 de conta de luz, em Rio Preto e região. Ganchos e números devem falar com esse público ("Sua conta passa de R$ 400?", kits de 8 placas para cima). Evitar conteúdo que atraia conta baixa.
 - Economia prometida: "média de 80%" na conta (nunca "até 95%").
 - Geração: SEMPRE 75 kWh/mês por placa. Tarifa CPFL: R$ 0,89/kWh. Economia = placas × 75 × 0,89 (o arte.py já faz).
 - WhatsApp: (17) 99671-7575 (nunca o antigo 3363-5028). Rio Preto e região. 7 anos de mercado.
