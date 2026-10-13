@@ -82,9 +82,15 @@
   "pauta": "Precisa de bateria para funcionar? (mito)",
   "foto": "fotos/007.jpg",
   "obra": "obra07",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01Tm2dxpKr8GbYCrrTTF1wq5"
+  "agendamento": "trig_01Tm2dxpKr8GbYCrrTTF1wq5",
+  "ids": {
+   "ig_feed": "17966927258973662",
+   "ig_story": "18119469421975535",
+   "fb_430641700123072": "430641700123072_122216121638482996",
+   "fb_110901733778456": "110901733778456_1772294341568846"
+  }
  },
  {
   "data": "2026-10-15",
