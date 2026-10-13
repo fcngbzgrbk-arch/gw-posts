@@ -70,9 +70,9 @@ def veil(W, H, layout, story, text_end=None):
             a = 238 if y < solid else int(238 * (1 - (y - solid) / (top_end - solid)))
             d.line([(0, y), (W, y)], fill=a)
     # rodapé sempre escurecido
-    fh = 420 if story else 300
+    fh = 760 if story else 300
     for y in range(H - fh, H):
-        t = (y - (H - fh)) / fh
+        t = min(1, (y - (H - fh)) / (fh * 0.6))
         a = int(235 * t)
         cur = m.getpixel((0, y))
         d.line([(0, y), (W, y)], fill=max(cur, a))
