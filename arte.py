@@ -1,19 +1,34 @@
-"""Gerador de artes GW Fotovoltaica — visual aprovado no Claude Design (09/10/2026).
-Foto no topo, painel escuro com cantos arredondados embaixo, selo, logo, titulo,
-numeros em caixas e chamada para o WhatsApp.
+"""Gerador de artes GW Fotovoltaica — estilo "título grande" aprovado pelo Maicon em 13/10/2026
+(referência de estilo: perfis de energia solar com título condensado em duas cores sobre foto).
+Foto real de obra em tela cheia, véu escuro, título enorme em Bebas Neue (branco + cor de destaque),
+texto de apoio, números opcionais e rodapé com WhatsApp.
+
 Uso: python3 arte.py spec.json posts/AAAA-MM-DD/arte  -> arte_feed.jpg + arte_story.jpg
-Campos do spec: foto, selo, kicker, titulo, destaque, sub, stats, placas, cta, tsize, fy, acento
+Campos do spec:
+  foto      caminho da foto (obrigatório)
+  titulo    linhas separadas por \n; linha entre *asteriscos* sai na cor de destaque
+  sub       texto de apoio (opcional)
+  placas    nº de placas -> caixas com placas / kWh/mês / R$ de energia (opcional)
+  stats     [[valor, rótulo], ...] no lugar de placas (opcional)
+  selo      etiqueta pequena acima do título (ex.: "OBRA REAL") (opcional)
+  layout    "topo" (padrão: véu de cima pra baixo, texto em cima) ou "esquerda" (véu lateral, texto à esquerda)
+  acento    "amarelo" (padrão) ou "verde"
+  rodape    texto à esquerda do rodapé (padrão: "Economia média de 80% · Rio Preto e região")
+  fy        enquadramento vertical da foto 0–1 (padrão 0.5)
+  tsize     tamanho do título em px no feed (padrão 132; o gerador reduz se não couber)
 """
 import sys, json, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
 from PIL import Image, ImageOps, ImageDraw, ImageFont
-F = os.path.join(ROOT, 'assets', 'fonts', 'Poppins-')
-def font(w, s): return ImageFont.truetype(F + w + '.ttf', s)
+FD = os.path.join(ROOT, 'assets', 'fonts')
+def poppins(w, s): return ImageFont.truetype(os.path.join(FD, 'Poppins-' + w + '.ttf'), s)
+def bebas(s): return ImageFont.truetype(os.path.join(FD, 'BebasNeue-Regular.ttf'), s)
 
 DARK = (8, 24, 18); GREEN = (34, 197, 94); YELLOW = (250, 204, 21); WHITE = (255, 255, 255)
-SOFT = (212, 230, 218); MUTED = (190, 220, 200); CARD = (18, 41, 31)
+SOFT = (228, 240, 232); MUTED = (190, 220, 200)
 TARIFA = 0.89; KWH_POR_PLACA = 75
 WHATS = '(17) 99671-7575'
+LOGO = Image.open(os.path.join(ROOT, 'assets', 'logo_branco.png')).convert('RGBA')
 
 def cover(im, W, H, fy=0.5):
     r = max(W / im.width, H / im.height)
@@ -40,99 +55,105 @@ def auto_stats(spec):
         spec['stats'] = [[str(p), 'placas'], [fmt(k), 'kWh/mês'], ['R$ ' + fmt(int(k * TARIFA + 0.5)), 'de energia/mês']]
     return spec
 
-LOGO = Image.open(os.path.join(ROOT, 'assets', 'logo_branco.png')).convert('RGBA')
+def veil(W, H, layout, story, text_end=None):
+    """Máscara (L) do véu escuro: 255 = cor escura total."""
+    m = Image.new('L', (W, H), 0); d = ImageDraw.Draw(m)
+    if layout == 'esquerda':
+        for x in range(W):
+            t = x / W
+            a = 245 if t < 0.45 else int(245 - (t - 0.45) / 0.55 * 215)
+            d.line([(x, 0), (x, H)], fill=max(a, 30))
+    else:
+        solid = max(int(H * 0.32), (text_end or 0) + 40)
+        top_end = min(H, solid + int(H * 0.22))
+        for y in range(top_end):
+            a = 238 if y < solid else int(238 * (1 - (y - solid) / (top_end - solid)))
+            d.line([(0, y), (W, y)], fill=a)
+    # rodapé sempre escurecido
+    fh = 420 if story else 300
+    for y in range(H - fh, H):
+        t = (y - (H - fh)) / fh
+        a = int(235 * t)
+        cur = m.getpixel((0, y))
+        d.line([(0, y), (W, y)], fill=max(cur, a))
+    return m
 
 def render(spec, W, H, out):
     spec = auto_stats(dict(spec))
     story = H > 1500
-    acc = tuple(spec['acento']) if spec.get('acento') else GREEN
+    layout = spec.get('layout', 'topo')
+    acc = GREEN if spec.get('acento') == 'verde' else YELLOW
     pad = 72 if story else 64
-    safe_top = 250 if story else 40          # zona segura do story
-    safe_bot = 260 if story else 56
-    maxw = W - 2 * pad
+    safe_top = 250 if story else 56
+    safe_bot = 260 if story else 64
 
     fp = spec['foto'] if os.path.isabs(spec['foto']) else os.path.join(ROOT, spec['foto'])
     im = ImageOps.exif_transpose(Image.open(fp)).convert('RGB')
-    tmp = ImageDraw.Draw(Image.new('RGB', (10, 10)))
+    photo = cover(im, W, H, spec.get('fy', 0.5))
+    layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))   # logo + texto de cima (aplicado sobre foto+véu depois)
+    d = ImageDraw.Draw(layer)
 
-    # ---- medir o painel ----
-    f_kick = font('Bold', 28 if story else 26)
-    f_tit = font('Bold', spec.get('tsize', 76 if story else 66))
-    f_sub = font('Medium', 34 if story else 31)
-    lh_t = int(f_tit.size * 1.1); lh_s = int(f_sub.size * 1.42)
-    tit = wrap(tmp, spec['titulo'], f_tit, maxw)
-    sub = wrap(tmp, spec['sub'], f_sub, maxw) if spec.get('sub') else []
-    gap = 28
-    h = 0
-    if spec.get('kicker'): h += 40 + 14
-    h += len(tit) * lh_t
-    if sub: h += gap + len(sub) * lh_s
-    if spec.get('stats'): h += gap + 150
-    cta_h = 104
-    h += gap + 12 + cta_h
-    panel_top = H - safe_bot - h - pad
-    panel_top = min(panel_top, int(H * (0.62 if story else 0.64)))  # foto ocupa no maximo isso
-
-    # ---- foto + painel ----
-    photo_h = panel_top + 60
-    base = Image.new('RGB', (W, H), DARK)
-    base.paste(cover(im, W, photo_h, spec.get('fy', 0.5)), (0, 0))
-    d = ImageDraw.Draw(base)
-    r = 56 if story else 48
-    d.rounded_rectangle([0, panel_top, W, H + r], radius=r, fill=DARK)
-
-    # ---- selo (pilula escura com ponto) ----
-    if spec.get('selo'):
-        f_selo = font('Bold', 26); txt = spec['selo'].upper()
-        tw = d.textlength(txt, font=f_selo)
-        x0, y0 = 48, safe_top + 8
-        d.rounded_rectangle([x0, y0, x0 + 26 + 14 + 12 + tw + 26, y0 + 60], radius=30, fill=DARK)
-        d.ellipse([x0 + 26, y0 + 23, x0 + 40, y0 + 37], fill=acc)
-        d.text((x0 + 52, y0 + 30), txt, font=f_selo, fill=WHITE, anchor='lm')
-
-    # ---- logo (com fundo escuro discreto para leitura sobre a foto) ----
-    lw = 220 if story else 200
+    # logo (topo direito no layout "topo", topo esquerdo no "esquerda")
+    lw = 190 if story else 170
     lg = LOGO.resize((lw, int(LOGO.height * lw / LOGO.width)), Image.LANCZOS)
-    lx, ly = W - 48 - lw, safe_top
-    plate = Image.new('RGBA', (lw + 36, lg.height + 28), (0, 0, 0, 0))
-    ImageDraw.Draw(plate).rounded_rectangle([0, 0, plate.width - 1, plate.height - 1], radius=24, fill=DARK + (200,))
-    base.paste(plate, (lx - 18, ly - 14), plate)
-    base.paste(lg, (lx, ly), lg)
+    lx = pad if layout == 'esquerda' else W - pad - lw
+    layer.alpha_composite(lg, (lx, safe_top))
 
-    # ---- texto do painel ----
-    y = panel_top + pad
-    if spec.get('kicker'):
-        d.text((pad, y), spec['kicker'].upper(), font=f_kick, fill=acc); y += 40 + 14
-    hi = spec.get('destaque')
-    for l in tit:
-        d.text((pad, y), l, font=f_tit, fill=YELLOW if hi and hi in l else WHITE); y += lh_t
-    if sub:
-        y += gap
-        for l in sub: d.text((pad, y), l, font=f_sub, fill=SOFT); y += lh_s
+    text_w = (760 if layout == 'esquerda' else 800) if not story else 860
+    # título
+    raw = [l for l in spec['titulo'].split('\n') if l.strip()]
+    lines = [(l.strip('*').upper(), l.startswith('*')) for l in raw]
+    ts = spec.get('tsize', 132) * (1.12 if story else 1)
+    ft = bebas(int(ts))
+    while max(d.textlength(t, font=ft) for t, _ in lines) > text_w and ft.size > 70:
+        ft = bebas(ft.size - 4)
+    lh = int(ft.size * 0.92)
+
+    # bloco de cima
+    if layout == 'esquerda':
+        y = int(H * 0.27) if not story else int(H * 0.30)
+    else:
+        y = safe_top + (lg.height + 40 if lw + 60 > W - text_w - pad else 20)
+    if spec.get('selo'):
+        fs = poppins('Bold', 26)
+        d.text((pad, y), spec['selo'].upper(), font=fs, fill=GREEN if acc == YELLOW else YELLOW)
+        y += 50
+    for t, hi in lines:
+        d.text((pad, y), t, font=ft, fill=acc if hi else WHITE)
+        y += lh
+    y += 26
+    if spec.get('sub'):
+        fsub = poppins('Medium', 34 if story else 30)
+        for l in wrap(d, spec['sub'], fsub, text_w - 40):
+            d.text((pad, y), l, font=fsub, fill=SOFT); y += int(fsub.size * 1.42)
+    # agora que sabemos onde o texto termina: foto + véu, e o texto por cima
+    base = Image.composite(Image.new('RGB', (W, H), DARK), photo, veil(W, H, layout, story, y)).convert('RGBA')
+    base.alpha_composite(layer)
+    base = base.convert('RGB')
+    d = ImageDraw.Draw(base)
+
+    # números (logo acima do rodapé)
+    foot_y = H - safe_bot - 76
     if spec.get('stats'):
-        y += gap
-        n = len(spec['stats']); g = 20; bw = (maxw - (n - 1) * g) // n
+        n = len(spec['stats']); g = 18; bw = (W - 2 * pad - (n - 1) * g) // n; bh = 132
+        sy = foot_y - 40 - bh
         for i, (v, k) in enumerate(spec['stats']):
             x = pad + i * (bw + g)
-            d.rounded_rectangle([x, y, x + bw, y + 150], radius=24, outline=acc, width=3, fill=DARK)
-            fv = font('Bold', 44)
-            while d.textlength(v, font=fv) > bw - 40: fv = font('Bold', fv.size - 2)
-            d.text((x + 28, y + 26), v, font=fv, fill=YELLOW)
-            fk = font('Medium', 22)
-            d.text((x + 28, y + 96), k, font=fk, fill=MUTED)
-        y += 150
+            d.rounded_rectangle([x, sy, x + bw, sy + bh], radius=22, fill=DARK, outline=acc, width=3)
+            fv = bebas(70)
+            while d.textlength(v, font=fv) > bw - 40: fv = bebas(fv.size - 4)
+            d.text((x + 26, sy + 16), v, font=fv, fill=acc)
+            d.text((x + 26, sy + 90), k, font=poppins('Medium', 22), fill=MUTED)
 
-    # ---- CTA ----
-    cy = H - safe_bot - cta_h
-    d.rounded_rectangle([pad, cy, W - pad, cy + cta_h], radius=cta_h // 2, fill=acc)
-    cta = spec.get('cta', 'Simule grátis · ' + WHATS)
-    fc = font('Bold', 34)
-    while d.textlength(cta, font=fc) > maxw - 60: fc = font('Bold', fc.size - 2)
-    d.text((W / 2, cy + cta_h / 2), cta, font=fc, fill=DARK, anchor='mm')
-    if not story:
-        pass
-    else:
-        d.text((W / 2, cy + cta_h + 40), 'Rio Preto e região  •  7 anos de mercado', font=font('Medium', 26), fill=MUTED, anchor='mm')
+    # rodapé: texto + pílula com WhatsApp
+    fpill = poppins('Bold', 28 if not story else 30)
+    pw = d.textlength(WHATS, font=fpill) + 64
+    d.rounded_rectangle([W - pad - pw, foot_y, W - pad, foot_y + 76], radius=38, fill=GREEN)
+    d.text((W - pad - pw / 2, foot_y + 38), WHATS, font=fpill, fill=DARK, anchor='mm')
+    rod = spec.get('rodape', 'Economia média de 80% · Rio Preto e região')
+    fr = poppins('Medium', 24 if not story else 26)
+    while d.textlength(rod, font=fr) > W - 2 * pad - pw - 24 and fr.size > 16: fr = poppins('Medium', fr.size - 1)
+    d.text((pad, foot_y + 38), rod, font=fr, fill=SOFT, anchor='lm')
 
     base.save(out, quality=90, optimize=True)
 

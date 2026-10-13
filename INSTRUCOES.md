@@ -36,9 +36,11 @@ Toda semana (tarefa de domingo) pesquisar o que os concorrentes que mais perform
 
 ## Passo 3 – arte
 `python3 arte.py spec.json posts/AAAA-MM-DD/arte` gera `arte_feed.jpg` (1080x1350) e `arte_story.jpg` (1080x1920).
-Visual = padrão aprovado no Claude Design em 09/10 (foto no topo, painel escuro arredondado, selo, logo, caixas de números, botão verde). Campos do spec: foto, selo, kicker, titulo, destaque, sub, stats ou placas, cta, tsize, fy, acento. Ferramenta de criação: Claude Design (o Maicon não usa mais Canva); Reels são editados pelo Claude a partir dos vídeos que ele mandar.
-Campos do spec: `foto` (ex. `fotos/097.jpg`), `fy` (0–1, enquadramento vertical), `selo`, `kicker`, `titulo`, `destaque` (trecho do título em amarelo), `tsize` (padrão 74; reduzir se o título for longo), e **um** dos dois: `placas` (calcula kWh e R$ sozinho) ou `sub` (texto de apoio).
-Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo visível. Ajustar `fy`/`tsize` se precisar.
+Visual = estilo "título grande" aprovado pelo Maicon em 13/10 (inspirado no visual de @solarpower_br, mas com logo, cores e fotos reais da GW; nunca copiar texto nem arte deles): foto real em tela cheia, véu verde-escuro, título enorme em Bebas Neue com linhas brancas + linhas de destaque (amarelo ou verde), texto de apoio, números opcionais, rodapé "Economia média de 80% · Rio Preto e região" + pílula verde com o WhatsApp.
+Campos do spec (detalhes no topo do arte.py): `foto`, `titulo` (linhas com `\n`; linha entre `*asteriscos*` sai na cor de destaque; títulos curtos e fortes, 2–4 linhas), `sub`, `placas` (gera as caixas de números) ou `stats`, `selo` (etiqueta pequena acima do título, ex. "OBRA REAL", "MITO OU VERDADE?"), `layout` ("topo" ou "esquerda"), `acento` ("amarelo" ou "verde"), `fy`, `tsize`.
+Temas de calendário que funcionam nesse estilo: datas comemorativas, estações (verão = mais geração), fim de ano/planejamento, empresas.
+Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo visível. Ajustar `fy`/`tsize`/`layout` se precisar.
+Ferramenta de criação: Claude Design (o Maicon não usa mais Canva); Reels são editados pelo Claude a partir dos vídeos que ele mandar.
 
 ## Regras fixas (do Maicon)
 - Economia prometida: "média de 80%" na conta (nunca "até 95%").
