@@ -85,5 +85,55 @@
   "status": "aprovado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01Tm2dxpKr8GbYCrrTTF1wq5"
+ },
+ {
+  "data": "2026-10-15",
+  "hora": "20:00",
+  "modelo": "OBRA REAL",
+  "pauta": "Mais uma família de Rio Preto e região gerando a própria energia (8 placas)",
+  "foto": "fotos/004.jpg",
+  "obra": "obra04",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-10-16",
+  "hora": "12:00",
+  "modelo": "PARCELA × CONTA",
+  "pauta": "Kit 12 placas (campanha): energia ~R$ 801/mês × parcela a partir de 96x R$ 381,50",
+  "foto": "fotos/036.jpg",
+  "obra": "obra12",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-10-17",
+  "hora": "20:00",
+  "modelo": "JÁ TEM SOLAR?",
+  "pauta": "Quando limpar as placas e como",
+  "foto": "fotos/056.jpg",
+  "obra": "obra14",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-10-18",
+  "hora": "20:00",
+  "modelo": "BASTIDORES",
+  "pauta": "7 anos de mercado em Rio Preto e região",
+  "foto": "fotos/102.jpg",
+  "obra": "obra18",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-10-19",
+  "hora": "20:00",
+  "modelo": "OBRA REAL",
+  "pauta": "Telhado de cerâmica, metálico ou laje: a gente instala em todos",
+  "foto": "fotos/108.jpg",
+  "obra": "obra19",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
