@@ -61,6 +61,8 @@ Registrar em `posts.json` com status `aguardando_aprovacao`.
 Mandar ao Maicon (SendUserFile com as 2 imagens + SendUserMessage com a legenda) e perguntar: "Aprova para hoje às HH:MM? Responda ok ou diga o que mudar."
 
 ## Passo 6 – após o "ok"
+ANTES de agendar: reler `posts.json` (git pull). Se o dia já estiver `aprovado` com `agendamento`, NÃO agendar de novo (evita post duplicado). Antes de publicar (passo 7), conferir que o status ainda não é `publicado`.
+
 Agendar `send_later` (initiation `human_request`) para o horário do dia com a mensagem
 "PUBLICAR post AAAA-MM-DD agora (aprovado pelo Maicon)". Atualizar `posts.json` → `aprovado`. Push.
 Se o "ok" chegar depois do horário, publicar na hora.
