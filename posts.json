@@ -71,9 +71,15 @@
   "foto": "fotos/097.jpg",
   "obra": "obra17",
   "pasta": "posts/2026-10-11",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_017jpP6wtAinqXeXWNbh2bsk"
+  "agendamento": "trig_017jpP6wtAinqXeXWNbh2bsk",
+  "ids": {
+   "ig_feed": "18104510810288379",
+   "ig_story": "18133174183681120",
+   "fb_430641700123072": "430641700123072_122216248580482996",
+   "fb_110901733778456": "110901733778456_1773459221452358"
+  }
  },
  {
   "data": "2026-10-13",

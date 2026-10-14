@@ -733,8 +733,8 @@
   "drone": true,
   "tipo": "instalacao",
   "orientacao": "paisagem",
-  "status": "disponivel",
-  "uso": null
+  "status": "usada",
+  "uso": "2026-10-14"
  },
  {
   "id": "098",
