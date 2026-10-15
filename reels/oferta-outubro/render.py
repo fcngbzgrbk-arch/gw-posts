@@ -4,7 +4,7 @@ here=os.path.dirname(os.path.abspath(__file__))
 mode=sys.argv[1]
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={'width':1080,'height':1920})
-    pg.goto('file://'+here+'/reel.html'); pg.wait_for_timeout(800)
+    pg.goto('file://'+here+'/'+(sys.argv[2] if len(sys.argv)>2 else 'reel.html')+''); pg.wait_for_timeout(800)
     total=pg.evaluate('TOTAL')
     if mode=='test':
         for t in [0.4,2.0,3.6,6.0,8.5,21.5,T if (T:=total-1) else 0]:

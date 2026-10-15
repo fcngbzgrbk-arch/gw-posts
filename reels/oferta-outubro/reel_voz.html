@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Bebas;src:url(../../assets/fonts/BebasNeue-Regular.ttf)}
+@font-face{font-family:Poppins;font-weight:500;src:url(../../assets/fonts/Poppins-Medium.ttf)}
+@font-face{font-family:Poppins;font-weight:700;src:url(../../assets/fonts/Poppins-Bold.ttf)}
+:root{--dark:#081812;--green:#22C55E;--yellow:#FACC15}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#050d09}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Poppins,sans-serif;color:#fff}
+#bg{position:absolute;inset:0;background:url(../../fotos/015.jpg) center/cover;filter:brightness(.32) saturate(.85);transform-origin:50% 70%}
+#glow{position:absolute;inset:0;background:radial-gradient(ellipse 120% 40% at 50% 100%,rgba(250,204,21,.55),rgba(34,197,94,.18) 45%,transparent 70%)}
+#vignette{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,transparent 40%,rgba(0,0,0,.75) 100%)}
+#sweep{position:absolute;top:-400px;left:-600px;width:300px;height:3000px;background:linear-gradient(90deg,transparent,rgba(250,230,150,.18),transparent);transform:rotate(25deg)}
+#badge{position:absolute;left:50%;top:0;width:900px;text-align:center;transform-origin:50% 0}
+#badge .ring{display:inline-block;padding:34px 70px 40px;border-radius:60px;background:linear-gradient(180deg,#123526,#081812);border:6px solid var(--yellow);box-shadow:0 0 60px rgba(250,204,21,.45),inset 0 0 30px rgba(34,197,94,.25)}
+#badge .small{font-family:Poppins;font-weight:700;font-size:44px;letter-spacing:10px;color:var(--green)}
+#badge .big{font-family:Bebas;font-size:230px;line-height:.86;color:#fff;text-shadow:0 6px 0 #0b2a1c,0 0 40px rgba(250,204,21,.35)}
+#badge .tag{display:inline-block;margin-top:10px;background:var(--yellow);color:var(--dark);font-family:Bebas;font-size:92px;line-height:1;padding:6px 34px 0;border-radius:18px;transform:rotate(-3deg)}
+#badge img{display:block;margin:34px auto 0;width:210px}
+.kit{position:absolute;left:60px;right:60px;top:820px;opacity:0;transform-origin:50% 50%}
+.kit .lead{font-family:Poppins;font-weight:700;font-size:54px;line-height:1.05;margin-bottom:22px}
+.kit .lead span{color:var(--yellow)}
+.kit .card{display:flex;align-items:stretch;background:#fff;border-radius:28px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.kit .kwh{background:var(--dark);color:#fff;padding:22px 34px 18px;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:300px}
+.kit .kwh b{font-family:Bebas;font-size:150px;line-height:.85;color:var(--yellow)}
+.kit .kwh small{font-family:Poppins;font-weight:700;font-size:30px;letter-spacing:2px}
+.kit .price{flex:1;color:var(--dark);display:flex;flex-direction:column;justify-content:center;padding:18px 30px}
+.kit .price small{font-weight:700;font-size:30px;color:#2b5a43}
+.kit .price b{font-family:Bebas;font-size:150px;line-height:.85}
+.kit .price b i{font-style:normal;font-size:70px;margin-right:8px}
+.kit .parc{margin-top:22px;display:inline-block;background:var(--green);color:var(--dark);font-weight:700;font-size:40px;padding:14px 30px;border-radius:999px}
+.kit .photo{margin-top:30px;height:360px;border-radius:28px;background-size:cover;background-position:center;border:5px solid rgba(250,204,21,.85);box-shadow:0 0 50px rgba(250,204,21,.35)}
+.kit .placas{position:absolute;right:26px;bottom:24px;background:rgba(8,24,18,.9);color:#fff;font-family:Bebas;font-size:64px;padding:6px 26px 0;border-radius:16px}
+#disc{position:absolute;left:60px;right:60px;bottom:200px;font-size:24px;line-height:1.4;color:#cfe3d6;opacity:0}
+#end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0}
+#end img{width:420px}
+#end .zap{margin-top:50px;font-family:Bebas;font-size:130px;color:#fff;text-shadow:0 0 30px rgba(34,197,94,.6)}
+#end .cta{margin-top:20px;background:var(--green);color:var(--dark);font-weight:700;font-size:48px;padding:22px 50px;border-radius:999px}
+#end .reg{margin-top:34px;font-size:34px;color:#cfe3d6}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="bg"></div><div id="glow"></div><div id="sweep"></div><div id="vignette"></div>
+  <div id="badge"><div class="ring"><div class="small">OFERTA DE</div><div class="big">OUTUBRO</div><div class="tag">ENERGIA SOLAR</div></div><img src="../../assets/logo_branco.png" alt=""></div>
+  <div id="kits"></div>
+  <div id="disc">Valores à vista. Parcelas com taxa a partir de 1,95% a.m., mediante simulação e aprovação de crédito. Valores finais confirmados após visita técnica. Imagens de obras reais da GW.</div>
+  <div id="end"><img src="../../assets/logo_branco.png" alt=""><div class="zap">(17) 99671-7575</div><div class="cta">Simule grátis no WhatsApp</div><div class="reg" style="color:#FACC15;font-weight:700;font-size:40px">Parcelamento em até 96x*</div><div class="reg">Economia média de 80% · Rio Preto e região</div></div>
+</div>
+<script>
+const KITS=[
+ {kwh:'600',preco:'11.500',parc:'277,45',placas:'8 placas',foto:'../../fotos/004.jpg'},
+ {kwh:'900',preco:'16.500',parc:'381,50',placas:'12 placas',foto:'../../fotos/036.jpg'},
+ {kwh:'1.200',preco:'20.600',parc:'490,17',placas:'16 placas',foto:'../../fotos/007.jpg'},
+ {kwh:'1.500',preco:'25.000',parc:'594,21',placas:'20 placas',foto:'../../fotos/057.jpg'},
+];
+const wrap=document.getElementById('kits');
+KITS.forEach((k,i)=>{const d=document.createElement('div');d.className='kit';d.id='k'+i;
+ d.innerHTML=`<div class="lead">Sistema completo <span>a partir de</span></div>
+ <div class="card"><div class="kwh"><b>${k.kwh}</b><small>KWH/MÊS</small></div><div class="price"><small>À VISTA</small><b><i>R$</i>${k.preco}</b></div></div>
+ <div class="parc">ou 96x de R$ ${k.parc}*</div>
+ <div class="photo" style="background-image:url(${k.foto});position:relative"><div class="placas">${k.placas}</div></div>`;
+ wrap.appendChild(d);});
+const KS=[6.0,11.3,15.5,20.4], KE=[11.3,15.5,20.4,24.26]; const T_INTRO=6.0, N=KITS.length, T_END_START=24.26, TOTAL=32.4;
+window.TOTAL=TOTAL;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const back=x=>{x=clamp(x);const c=1.70158;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+window.render=function(t){
+  const bg=document.getElementById('bg'); bg.style.transform=`scale(${1.08+0.06*t/TOTAL})`;
+  const sw=document.getElementById('sweep'); const sp=(t%3.2)/3.2; sw.style.left=(-600+2400*sp)+'px';
+  // badge
+  const b=document.getElementById('badge');
+  let s,top,op=1,blur=0;
+  if(t<1.0){const p=ease(t/1.0); s=2.6-1.6*p; top=520; op=clamp(t/0.4); blur=(1-p)*14;}
+  else if(t<T_INTRO-0.5){s=1+0.03*Math.sin((t-1)*3); top=520;}
+  else {const p=ease((t-(T_INTRO-0.5))/0.6); s=1-0.32*p; top=520-420*p;}
+  if(t>T_END_START-0.3){op=clamp(1-(t-(T_END_START-0.3))/0.4);}
+  b.style.transform=`translateX(-50%) scale(${s})`; b.style.top=top+'px'; b.style.opacity=op; b.style.filter=`blur(${blur}px)`;
+  // kits
+  KITS.forEach((k,i)=>{const e=document.getElementById('k'+i); const t0=KS[i], t1=KE[i];
+    if(t<t0-0.05||t>t1+0.05){e.style.opacity=0;return;}
+    const pin=clamp((t-t0)/0.35), pout=clamp((t-(t1-0.3))/0.3);
+    const sc=(1.35-0.35*back(pin))*(1+0.25*pout);
+    e.style.opacity=Math.min(clamp(pin*2),1-pout);
+    e.style.filter=`blur(${(1-pin)*10+pout*12}px)`;
+    // punch pulse no meio
+    const pulse=1+0.04*Math.exp(-Math.pow((t-t0-1.8)*4,2));
+    e.style.transform=`scale(${sc*pulse})`;
+  });
+  document.getElementById('disc').style.opacity=(t>T_INTRO+0.3&&t<T_END_START)?0.95:0;
+  const end=document.getElementById('end'); const pe=clamp((t-T_END_START)/0.6);
+  end.style.opacity=pe; end.style.transform=`scale(${1.2-0.2*ease(pe)})`;
+};
+render(0);
+</script>
+</body>
+</html>
