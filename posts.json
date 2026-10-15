@@ -105,10 +105,16 @@
   "pauta": "Mais uma família de Rio Preto e região gerando a própria energia (8 placas)",
   "foto": "fotos/004.jpg",
   "obra": "obra04",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01Xtx7gXcGfc8v4Gn9mnvACb",
-  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal"
+  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal",
+  "ids": {
+   "ig_feed": "17989967526049542",
+   "ig_story": "18109331336266655",
+   "fb_430641700123072": "430641700123072_122216370224482996",
+   "fb_110901733778456": "110901733778456_1774622738002673"
+  }
  },
  {
   "data": "2026-10-16",
