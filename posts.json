@@ -123,10 +123,16 @@
   "pauta": "Kit 12 placas (campanha): energia ~R$ 801/mês × parcela a partir de 96x R$ 381,50",
   "foto": "fotos/036.jpg",
   "obra": "obra12",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01FRkjVcHfmjmaoeu5WqgBdW",
-  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal"
+  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal",
+  "ids": {
+   "ig_feed": "18123232799474528",
+   "ig_story": "17885558178624821",
+   "fb_430641700123072": "430641700123072_122216445410482996",
+   "fb_110901733778456": "110901733778456_1775399294591684"
+  }
  },
  {
   "data": "2026-10-17",
