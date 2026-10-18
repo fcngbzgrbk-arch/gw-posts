@@ -159,10 +159,16 @@
   "pauta": "7 anos de mercado em Rio Preto e região",
   "foto": "fotos/102.jpg",
   "obra": "obra18",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_016QdiczXR2MUZ6xeq1ZB6Hc",
-  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal"
+  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal",
+  "ids": {
+   "ig_feed": "17931295089166648",
+   "ig_story": "18063954596549186",
+   "fb_430641700123072": "430641700123072_122216727446482996",
+   "fb_110901733778456": "110901733778456_1777953761002904"
+  }
  },
  {
   "data": "2026-10-19",
