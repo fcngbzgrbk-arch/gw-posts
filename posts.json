@@ -177,10 +177,16 @@
   "pauta": "Telhado de cerâmica, metálico ou laje: a gente instala em todos",
   "foto": "fotos/108.jpg",
   "obra": "obra19",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_014anfiRsPAfUHCFtk5uE5iM",
-  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal"
+  "obs": "aprovado pelo Maicon em 13/10 (estilo novo); publicação agendada na conversa principal",
+  "ids": {
+   "ig_feed": "18107399528274482",
+   "ig_story": "18115978231821128",
+   "fb_430641700123072": "430641700123072_122216850794482996",
+   "fb_110901733778456": "110901733778456_1779069817557965"
+  }
  },
  {
   "data": "2026-10-20",
