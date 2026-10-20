@@ -43,6 +43,7 @@ Abrir as duas imagens geradas e conferir: texto legível, nada cortado, logo vis
 Ferramenta de criação: Claude Design (o Maicon não usa mais Canva); Reels são editados pelo Claude a partir dos vídeos que ele mandar.
 
 ## Regras fixas (do Maicon)
+- SEM ENTRADA + CARÊNCIA na 1ª parcela: confirmado pelo Maicon em 20/10. Pode usar nos posts de oferta, sempre com "mediante simulação e aprovação de crédito"; não citar quantos meses de carência (não informado).
 - Escrever "simulação gratuita" (nunca "simulação grátis"/"simule grátis") — pedido do Maicon em 15/10.
 - PÚBLICO-ALVO (decisão do Maicon em 13/10): quem paga ACIMA DE R$ 400 de conta de luz, em Rio Preto e região. Ganchos e números devem falar com esse público ("Sua conta passa de R$ 400?", kits de 8 placas para cima). Evitar conteúdo que atraia conta baixa.
 - Economia prometida: "média de 80%" na conta (nunca "até 95%").
