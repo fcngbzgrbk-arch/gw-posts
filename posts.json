@@ -210,9 +210,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "3 sinais de que o sistema está gerando menos",
   "foto": "fotos/087.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01413cKJC1HLRRst4hZzh3UD"
+  "agendamento": "trig_01413cKJC1HLRRst4hZzh3UD",
+  "ids": {
+   "ig_feed": "18348013951270026",
+   "ig_story": "18129821008844946",
+   "fb_430641700123072": "430641700123072_122217099032482996",
+   "fb_110901733778456": "110901733778456_1781358047329142"
+  }
  },
  {
   "data": "2026-10-22",
