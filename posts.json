@@ -242,9 +242,15 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "Pagar rápido ou deixar a energia pagar a parcela? Kit 8 placas: 24x R$ 630,87 × 96x R$ 277,45 × R$ 534/mês (NOVAS 18/10)",
   "foto": "fotos/033.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_018iL5VgxsmccjS3gpujf4h2"
+  "agendamento": "trig_018iL5VgxsmccjS3gpujf4h2",
+  "ids": {
+   "ig_feed": "18148391668564234",
+   "ig_story": "18106695884356124",
+   "fb_430641700123072": "430641700123072_122217288002482996",
+   "fb_110901733778456": "110901733778456_1783207893810824"
+  }
  },
  {
   "data": "2026-10-24",
