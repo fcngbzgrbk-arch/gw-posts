@@ -258,9 +258,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Comprou ar-condicionado/piscina? Hora de ampliar o sistema",
   "foto": "fotos/118.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_013iasUeZ5KFyr7CpYRf6JdR"
+  "agendamento": "trig_013iasUeZ5KFyr7CpYRf6JdR",
+  "ids": {
+   "ig_feed": "18192713677404123",
+   "ig_story": "18107394968209407",
+   "fb_430641700123072": "430641700123072_122217459422482996",
+   "fb_110901733778456": "110901733778456_1784740356990911"
+  }
  },
  {
   "data": "2026-10-25",
