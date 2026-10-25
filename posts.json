@@ -274,9 +274,15 @@
   "modelo": "BASTIDORES",
   "pauta": "Por que falamos em média de 80% (honestidade, sem promessa de conta zerada)",
   "foto": "fotos/131.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01TzFo9sWQ3sdZYWYygdgD1d"
+  "agendamento": "trig_01TzFo9sWQ3sdZYWYygdgD1d",
+  "ids": {
+   "ig_feed": "18359725555221170",
+   "ig_story": "17929911576182259",
+   "fb_430641700123072": "430641700123072_122217583514482996",
+   "fb_110901733778456": "110901733778456_1785831933548420"
+  }
  },
  {
   "data": "2026-10-26",
