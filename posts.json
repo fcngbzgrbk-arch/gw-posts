@@ -290,9 +290,15 @@
   "modelo": "OBRA REAL",
   "pauta": "Empresas: feche 2026 com a conta de luz menor (48 placas)",
   "foto": "fotos/009.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01NjqLxRjVUeUSGjXY3MaaZC"
+  "agendamento": "trig_01NjqLxRjVUeUSGjXY3MaaZC",
+  "ids": {
+   "ig_feed": "18114328061597530",
+   "ig_story": "18003507579009341",
+   "fb_430641700123072": "430641700123072_122217714290482996",
+   "fb_110901733778456": "110901733778456_1787002773431336"
+  }
  },
  {
   "data": "2026-10-27",
