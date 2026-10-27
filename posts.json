@@ -306,9 +306,15 @@
   "modelo": "MITO OU VERDADE?",
   "pauta": "A conta zera totalmente? (mito)",
   "foto": "fotos/003.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01CiHVWGTFEi4ZtqyEMWpwn3"
+  "agendamento": "trig_01CiHVWGTFEi4ZtqyEMWpwn3",
+  "ids": {
+   "ig_feed": "18121324264913254",
+   "ig_story": "18133357549780635",
+   "fb_110901733778456": "110901733778456_1788422433289370",
+   "fb_430641700123072": "430641700123072_122217832814482996"
+  }
  },
  {
   "data": "2026-10-28",
