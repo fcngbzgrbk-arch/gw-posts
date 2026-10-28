@@ -322,9 +322,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Como acompanhar a geração pelo aplicativo",
   "foto": "fotos/045.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01DPYq1xZ7arT3J5jbfUGx2L"
+  "agendamento": "trig_01DPYq1xZ7arT3J5jbfUGx2L",
+  "ids": {
+   "ig_feed": "18178464844434521",
+   "ig_story": "18107654276123328",
+   "fb_110901733778456": "110901733778456_1789773246487622",
+   "fb_430641700123072": "430641700123072_122217954014482996"
+  }
  },
  {
   "data": "2026-10-29",
