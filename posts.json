@@ -363,8 +363,14 @@
   "pauta": "Mais uma casa gerando energia — 14 placas 610 W, 4 microinversores, +R$900/mês",
   "pasta": "posts/obra-14placas",
   "foto": "fotos de drone enviadas pelo Maicon",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01FeH4Y7wFqeo5NcvtNWEaw8"
+  "agendamento": "trig_01FeH4Y7wFqeo5NcvtNWEaw8",
+  "ids": {
+   "ig_feed": "18059554157559052",
+   "ig_story": "17916631995530042",
+   "fb_110901733778456": "110901733778456_1789325176532429",
+   "fb_430641700123072": "430641700123072_122217908714482996"
+  }
  }
 ]
