@@ -338,9 +338,15 @@
   "modelo": "OBRA REAL",
   "pauta": "Verão é quando o sol mais trabalha para você",
   "foto": "fotos/001.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01WKq7Eo6JoUtpaVRR8hHhgZ"
+  "agendamento": "trig_01WKq7Eo6JoUtpaVRR8hHhgZ",
+  "ids": {
+   "ig_feed": "18158189494521747",
+   "ig_story": "17997321960016889",
+   "fb_110901733778456": "110901733778456_1791124139685866",
+   "fb_430641700123072": "430641700123072_122218081160482996"
+  }
  },
  {
   "data": "2026-10-30",
