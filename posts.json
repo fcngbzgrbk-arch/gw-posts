@@ -381,12 +381,18 @@
  },
  {
   "data": "2026-10-29-extra",
-  "hora": "agora",
+  "hora": "10:20",
   "modelo": "OBRA REAL",
   "pauta": "Ligue o ar sem medo da conta — 11 placas 620 W, +R$700/mês",
   "pasta": "posts/obra-11placas",
   "foto": "fotos de drone enviadas pelo Maicon",
-  "status": "aprovado",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "publicado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "ids": {
+   "ig_feed": "18099019496412036",
+   "ig_story": "18129200122870557",
+   "fb_110901733778456": "110901733778456_1790553909742889",
+   "fb_430641700123072": "430641700123072_122218019930482996"
+  }
  }
 ]
