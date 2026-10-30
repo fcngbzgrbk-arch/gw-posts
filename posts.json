@@ -354,9 +354,15 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "A bandeira ficou verde. E em novembro? ANTES conta R$ 1.068 × DEPOIS parcela 96x R$ 490,17 (100% financiada); após as parcelas, só taxa mínima (pedido do Maicon 20/10)",
   "foto": "fotos/093.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_013QaZ1hvdzMMkZtEYT8VQY4"
+  "agendamento": "trig_013QaZ1hvdzMMkZtEYT8VQY4",
+  "ids": {
+   "ig_feed": "18015312422760210",
+   "ig_story": "18093847427226261",
+   "fb_110901733778456": "110901733778456_1792051396259807",
+   "fb_430641700123072": "430641700123072_122218164026482996"
+  }
  },
  {
   "data": "2026-10-31",
