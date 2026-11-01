@@ -419,8 +419,14 @@
   "modelo": "BASTIDORES",
   "pauta": "5 perguntas para fazer ANTES de fechar energia solar com qualquer empresa",
   "foto": "fotos/105.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_015bYaHgNZ1SMPnc5v1ZW2td"
+  "agendamento": "trig_015bYaHgNZ1SMPnc5v1ZW2td",
+  "ids": {
+   "ig_feed": "18085704671334124",
+   "ig_story": "17978035434152381",
+   "fb_110901733778456": "110901733778456_1795097095955237",
+   "fb_430641700123072": "430641700123072_122218499174482996"
+  }
  }
 ]
