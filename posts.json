@@ -501,9 +501,15 @@
   "modelo": "PERGUNTA RÁPIDA",
   "pauta": "Quanto veio a sua conta de outubro? faixas × kits",
   "foto": "fotos/020.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_014PoTqst1CVxJvFw5cQJdsX"
+  "agendamento": "trig_014PoTqst1CVxJvFw5cQJdsX",
+  "ids": {
+   "ig_feed": "18149342734565841",
+   "ig_story": "18132465307761057",
+   "fb_110901733778456": "110901733778456_1806722104792736",
+   "fb_430641700123072": "430641700123072_122219797520482996"
+  }
  },
  {
   "data": "2026-11-11",
