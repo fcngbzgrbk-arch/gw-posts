@@ -435,10 +435,16 @@
   "modelo": "OBRA REAL",
   "pauta": "Telhado parado é dinheiro indo embora todo mês (obra em Uchoa)",
   "foto": "fotos/088.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_0197TMjjK6Hu5QnTjcBSKEiz",
-  "remarcado": "10/11 12h (não saiu no dia: aprovação da ferramenta pendente)"
+  "remarcado": "10/11 12h (não saiu no dia: aprovação da ferramenta pendente)",
+  "ids": {
+   "ig_feed": "18135992098664927",
+   "ig_story": "18081412400394926",
+   "fb_110901733778456": "110901733778456_1806289724835974",
+   "fb_430641700123072": "430641700123072_122219750726482996"
+  }
  },
  {
   "data": "2026-11-06",
