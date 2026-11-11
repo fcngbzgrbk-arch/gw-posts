@@ -1164,5 +1164,53 @@
   "orientacao": "paisagem",
   "status": "disponivel",
   "uso": null
+ },
+ {
+  "id": "137",
+  "obra": "nova-2026-11-11",
+  "placas": null,
+  "cidade": "",
+  "drone": false,
+  "tipo": "instalacao",
+  "orientacao": "paisagem",
+  "status": "disponivel",
+  "uso": null,
+  "obs": "telhado com vista da cidade · info de cidade/placas pendente"
+ },
+ {
+  "id": "138",
+  "obra": "nova-2026-11-11",
+  "placas": null,
+  "cidade": "",
+  "drone": false,
+  "tipo": "instalacao",
+  "orientacao": "paisagem",
+  "status": "disponivel",
+  "uso": null,
+  "obs": "duas águas, telha cerâmica · info de cidade/placas pendente"
+ },
+ {
+  "id": "139",
+  "obra": "nova-2026-11-11",
+  "placas": null,
+  "cidade": "",
+  "drone": false,
+  "tipo": "instalacao",
+  "orientacao": "paisagem",
+  "status": "disponivel",
+  "uso": null,
+  "obs": "equipe no telhado (boné com logo: desfocar ao usar) · info de cidade/placas pendente"
+ },
+ {
+  "id": "140",
+  "obra": "nova-2026-11-11",
+  "placas": null,
+  "cidade": "",
+  "drone": false,
+  "tipo": "instalacao",
+  "orientacao": "paisagem",
+  "status": "disponivel",
+  "uso": null,
+  "obs": "placas com reflexo do sol · info de cidade/placas pendente"
  }
 ]
