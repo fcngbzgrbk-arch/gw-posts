@@ -88,3 +88,10 @@ O contexto da GW que elas pedem está em `.agents/product-marketing.md`. As regr
 
 ## Reels com Remotion (instalado em 11/11/2026)
 Para Reels de obra/foto, use o modelo em `remotion/` (ver remotion/LEIA.md) no lugar do HTML+Playwright antigo. Entregue SEM música (o Maicon escolhe o áudio em alta no app).
+
+## Reels "texto rápido" (11/11/2026)
+Modelo preferido para Reels: `KineticReel` em remotion/src/KineticReel.tsx (2 a 4 palavras por tela, ~1,5 s cada, uma palavra destacada em amarelo, foto de obra escurecida ao fundo, barra de progresso e fechamento "Comenta CONTA"). Exemplos de roteiro em remotion/reels-semana/k*.json. Render: `npx remotion render src/index.ts KineticReel out/x.mp4 --props=arquivo.json`.
+Todo Reels termina com "Comenta CONTA" → o Maicon (ou a Sol) responde no direct com a simulação gratuita.
+
+## /corte (tirar pausas de vídeo falado)
+`python3 tools/corte.py entrada.mp4 saida.mp4 [--ruido -32] [--pausa 0.45]` — corta silêncios, mantém um respiro nas bordas. Legenda automática da fala ainda NÃO está disponível na nuvem (download do modelo de transcrição bloqueado); fazer no computador do Maicon quando estiver conectado.
