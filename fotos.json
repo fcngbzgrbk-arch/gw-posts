@@ -1171,11 +1171,11 @@
   "placas": null,
   "cidade": "",
   "drone": false,
-  "tipo": "instalacao",
+  "tipo": "fundo",
   "orientacao": "paisagem",
   "status": "disponivel",
   "uso": null,
-  "obs": "telhado com vista da cidade · info de cidade/placas pendente"
+  "obs": "telhado com vista da cidade · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  },
  {
   "id": "138",
@@ -1183,11 +1183,11 @@
   "placas": null,
   "cidade": "",
   "drone": false,
-  "tipo": "instalacao",
+  "tipo": "fundo",
   "orientacao": "paisagem",
   "status": "disponivel",
   "uso": null,
-  "obs": "duas águas, telha cerâmica · info de cidade/placas pendente"
+  "obs": "duas águas, telha cerâmica · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  },
  {
   "id": "139",
@@ -1195,11 +1195,11 @@
   "placas": null,
   "cidade": "",
   "drone": false,
-  "tipo": "instalacao",
+  "tipo": "fundo",
   "orientacao": "paisagem",
   "status": "disponivel",
   "uso": null,
-  "obs": "equipe no telhado (boné com logo: desfocar ao usar) · info de cidade/placas pendente"
+  "obs": "equipe no telhado (boné com logo: desfocar ao usar) · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  },
  {
   "id": "140",
@@ -1207,10 +1207,10 @@
   "placas": null,
   "cidade": "",
   "drone": false,
-  "tipo": "instalacao",
+  "tipo": "fundo",
   "orientacao": "paisagem",
   "status": "disponivel",
   "uso": null,
-  "obs": "placas com reflexo do sol · info de cidade/placas pendente"
+  "obs": "placas com reflexo do sol · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  }
 ]
