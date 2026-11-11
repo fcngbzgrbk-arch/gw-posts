@@ -523,9 +523,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Limpeza anual das placas: ganho de até 20%",
   "foto": "fotos/limpeza01.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01AjidiTeMCyw4N7eCqDaDiB"
+  "agendamento": "trig_01AjidiTeMCyw4N7eCqDaDiB",
+  "ids": {
+   "ig_feed": "18103254410393099",
+   "ig_story": "18123162056330028",
+   "fb_110901733778456": "110901733778456_1808147741316839",
+   "fb_430641700123072": "430641700123072_122220042380482996"
+  }
  },
  {
   "data": "2026-11-14",
