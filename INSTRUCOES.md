@@ -85,3 +85,6 @@ A pasta `marketing-skills/` tem métodos prontos (licença MIT, origem: github.c
 - Texto de venda: `copywriting/` e `copy-editing/` · Oferta/Black Friday: `offers/` · Gatilhos: `marketing-psychology/`
 - Página de captação/landing: `cro/` e `lead-magnets/` · Indicação de clientes: `referrals/` · Concorrentes: `competitor-profiling/` · Plano de conteúdo: `content-strategy/`
 O contexto da GW que elas pedem está em `.agents/product-marketing.md`. As regras desta INSTRUCOES.md sempre prevalecem sobre as skills.
+
+## Reels com Remotion (instalado em 11/11/2026)
+Para Reels de obra/foto, use o modelo em `remotion/` (ver remotion/LEIA.md) no lugar do HTML+Playwright antigo. Entregue SEM música (o Maicon escolhe o áudio em alta no app).
