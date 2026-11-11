@@ -1,0 +1,5 @@
+{"cenas":[
+ {"foto":"obra/038.jpg","dur":3.0,"selo":"VOCÊ SABIA?","titulo":["QUANTO GERA","*UMA PLACA SOLAR?*"]},
+ {"foto":"obra/039.jpg","dur":4.0,"selo":"AQUI EM RIO PRETO","titulo":["1 PLACA"],"cartoes":[["75 kWh","por mês, em média"],["~R$ 67","de energia/mês*"]],"rodape":"*Tarifa CPFL de cerca de R$ 0,89 por kWh."},
+ {"foto":"obra/041.jpg","dur":4.4,"selo":"FAÇA AS CONTAS","titulo":["E UM KIT","*COMPLETO?*"],"cartoes":[["8 placas","~R$ 534/mês"],["12 placas","~R$ 801/mês"],["16 placas","~R$ 1.068/mês"]]}
+],"fim":{"titulo":"QUANTAS PLACAS A SUA CASA PRECISA?","texto":"Simulação gratuita · Economia média de 80%"},"whatsapp":"(17) 99671-7575"}
