@@ -78,3 +78,10 @@ Windsor.ai `execute_action`:
    - account `110901733778456` ("GW Fotovoltáica", facebook.com/gwfotovoltaica, página antiga com o público)
    - account `430641700123072` ("GW Fotovoltaica - Energia Solar Rio Preto", ligada ao Instagram)
 Registrar os IDs retornados em `posts.json` (status `publicado`), marcar a foto como usada em `fotos.json`, push, e avisar o Maicon em uma linha. Se alguma ação falhar, avisar qual e por quê; não repetir uma ação que já deu certo.
+
+## Skills de marketing (instaladas em 11/11/2026)
+A pasta `marketing-skills/` tem métodos prontos (licença MIT, origem: github.com/coreyhaines31/marketingskills, versão em VERSAO.txt). Antes de criar legenda, anúncio, roteiro de Reels, oferta ou página, leia o SKILL.md da skill certa:
+- Posts/legendas/calendário: `social/` · Roteiro de Reels: `video/` · Anúncio Meta: `ad-creative/` e `ads/`
+- Texto de venda: `copywriting/` e `copy-editing/` · Oferta/Black Friday: `offers/` · Gatilhos: `marketing-psychology/`
+- Página de captação/landing: `cro/` e `lead-magnets/` · Indicação de clientes: `referrals/` · Concorrentes: `competitor-profiling/` · Plano de conteúdo: `content-strategy/`
+O contexto da GW que elas pedem está em `.agents/product-marketing.md`. As regras desta INSTRUCOES.md sempre prevalecem sobre as skills.
