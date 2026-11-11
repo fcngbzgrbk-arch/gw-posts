@@ -452,10 +452,16 @@
   "modelo": "MITO OU VERDADE?",
   "pauta": "Bandeira verde: então dá para esperar? (mito)",
   "foto": "fotos/037.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01K6vDnC2QTZa28gS7L7FL7q",
-  "remarcado": "11/11 12h (não saiu no dia: aprovação da ferramenta pendente)"
+  "remarcado": "11/11 12h (não saiu no dia: aprovação da ferramenta pendente)",
+  "ids": {
+   "ig_feed": "17876436879649762",
+   "ig_story": "17948462730361418",
+   "fb_110901733778456": "110901733778456_1807638958034384",
+   "fb_430641700123072": "430641700123072_122219875142482996"
+  }
  },
  {
   "data": "2026-11-07",
