@@ -533,8 +533,9 @@
   "modelo": "BASTIDORES",
   "pauta": "Quem instala faz toda a diferença",
   "foto": "fotos/139.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01AFb129YW1jkuk55cxBB3Zo"
  },
  {
   "data": "2026-11-15",
@@ -542,8 +543,9 @@
   "modelo": "PERGUNTA RÁPIDA",
   "pauta": "O ar-condicionado vai trabalhar no verão? quantos aparelhos",
   "foto": "fotos/137.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01ALFnPSzH4zBEEhqt1hVSqk"
  },
  {
   "data": "2026-11-16",
@@ -551,8 +553,9 @@
   "modelo": "MITO OU VERDADE?",
   "pauta": "Placa solar estraga o telhado?",
   "foto": "fotos/138.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01GMKk64VkSbEjLXjMi68vbu"
  },
  {
   "data": "2026-11-17",
@@ -560,8 +563,9 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "Conta de R$ 800? kit 12 placas 96x R$ 381,50",
   "foto": "fotos/035.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01XknKpqDpUabCiTR4Ua71DE"
  },
  {
   "data": "2026-11-18",
@@ -569,7 +573,18 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Dia nublado o sistema para?",
   "foto": "fotos/140.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01KmMDFT1H3r69rqCm7bKE4X"
+ },
+ {
+  "data": "reels-semana-2026-11-16",
+  "status": "aprovado",
+  "canais": "Reels postado pelo Maicon no app (áudio em alta)",
+  "lembretes": {
+   "2026-11-16 11h": "trig_013YMienmJtbAzeXpeN5P9Nw k1-quanto-gera",
+   "2026-11-18 11h": "trig_016qripCCWHJvgeBEcDdu1ri k2-jaci",
+   "2026-11-20 11h": "trig_016xm3T2behPwDuG5BdPJQXo k3-parcela"
+  }
  }
 ]
