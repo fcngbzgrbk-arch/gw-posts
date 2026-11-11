@@ -526,5 +526,50 @@
   "status": "aprovado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01AjidiTeMCyw4N7eCqDaDiB"
+ },
+ {
+  "data": "2026-11-14",
+  "hora": "20:00",
+  "modelo": "BASTIDORES",
+  "pauta": "Quem instala faz toda a diferença",
+  "foto": "fotos/139.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-15",
+  "hora": "20:00",
+  "modelo": "PERGUNTA RÁPIDA",
+  "pauta": "O ar-condicionado vai trabalhar no verão? quantos aparelhos",
+  "foto": "fotos/137.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-16",
+  "hora": "20:00",
+  "modelo": "MITO OU VERDADE?",
+  "pauta": "Placa solar estraga o telhado?",
+  "foto": "fotos/138.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-17",
+  "hora": "20:00",
+  "modelo": "PARCELA × CONTA",
+  "pauta": "Conta de R$ 800? kit 12 placas 96x R$ 381,50",
+  "foto": "fotos/035.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-18",
+  "hora": "20:00",
+  "modelo": "JÁ TEM SOLAR?",
+  "pauta": "Dia nublado o sistema para?",
+  "foto": "fotos/140.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
