@@ -469,10 +469,16 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Inversor apitando ou com luz vermelha: o que fazer",
   "foto": "fotos/133.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01H8JfzYR6LdHKhpuSEttfPb",
-  "remarcado": "12/11 20h (não saiu no dia: aprovação da ferramenta pendente)"
+  "remarcado": "12/11 20h (não saiu no dia: aprovação da ferramenta pendente)",
+  "ids": {
+   "ig_feed": "18094821830220017",
+   "ig_story": "18050415125831333",
+   "fb_110901733778456": "110901733778456_1809504221181191",
+   "fb_430641700123072": "430641700123072_122220150590482996"
+  }
  },
  {
   "data": "2026-11-08",
