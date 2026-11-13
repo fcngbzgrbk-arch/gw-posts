@@ -40,7 +40,11 @@ def wrap(d, text, f, maxw):
     out = []
     for para in text.split('\n'):
         line = ''
-        for w in para.split():
+        ws = para.split(); words = []
+        for w in ws:  # não separar "R$" do valor
+            if words and words[-1] in ('R$', '~R$'): words[-1] += ' ' + w
+            else: words.append(w)
+        for w in words:
             t = (line + ' ' + w).strip()
             if d.textlength(t, font=f) <= maxw: line = t
             else: out.append(line); line = w
