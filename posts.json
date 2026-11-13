@@ -486,10 +486,16 @@
   "modelo": "OBRA REAL",
   "pauta": "Sua conta passa de R$ 400? O seu telhado resolve (obra em Jaci)",
   "foto": "fotos/096.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01KM7yMXz1GDr2m6Z7JmmcZi",
-  "remarcado": "13/11 20h (não saiu no dia: aprovação da ferramenta pendente)"
+  "remarcado": "13/11 20h (não saiu no dia: aprovação da ferramenta pendente)",
+  "ids": {
+   "ig_feed": "18108339533575622",
+   "ig_story": "18128699620868577",
+   "fb_110901733778456": "110901733778456_1810882611043352",
+   "fb_430641700123072": "430641700123072_122220279302482996"
+  }
  },
  {
   "data": "2026-11-09",
