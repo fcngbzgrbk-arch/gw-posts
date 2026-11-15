@@ -1173,8 +1173,8 @@
   "drone": false,
   "tipo": "fundo",
   "orientacao": "paisagem",
-  "status": "disponivel",
-  "uso": null,
+  "status": "usada",
+  "uso": "2026-11-15",
   "obs": "telhado com vista da cidade · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  },
  {

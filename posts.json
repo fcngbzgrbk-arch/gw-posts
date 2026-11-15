@@ -576,9 +576,15 @@
   "modelo": "PERGUNTA RÁPIDA",
   "pauta": "O ar-condicionado vai trabalhar no verão? quantos aparelhos",
   "foto": "fotos/137.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01ALFnPSzH4zBEEhqt1hVSqk"
+  "agendamento": "trig_01ALFnPSzH4zBEEhqt1hVSqk",
+  "ids": {
+   "ig_feed": "17926870935443955",
+   "ig_story": "18079712504441806",
+   "fb_110901733778456": "110901733778456_1813554620776151",
+   "fb_430641700123072": "430641700123072_122220522116482996"
+  }
  },
  {
   "data": "2026-11-16",
