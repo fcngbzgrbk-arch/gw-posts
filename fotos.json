@@ -1185,8 +1185,8 @@
   "drone": false,
   "tipo": "fundo",
   "orientacao": "paisagem",
-  "status": "disponivel",
-  "uso": null,
+  "status": "usada",
+  "uso": "2026-11-16",
   "obs": "duas águas, telha cerâmica · SÓ FUNDO: sem dados da obra (não citar nº de placas, cidade nem economia)"
  },
  {

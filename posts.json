@@ -592,9 +592,15 @@
   "modelo": "MITO OU VERDADE?",
   "pauta": "Placa solar estraga o telhado?",
   "foto": "fotos/138.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01GMKk64VkSbEjLXjMi68vbu"
+  "agendamento": "trig_01GMKk64VkSbEjLXjMi68vbu",
+  "ids": {
+   "ig_feed": "18009000320791572",
+   "ig_story": "18130012954854668",
+   "fb_110901733778456": "110901733778456_1815171143947832",
+   "fb_430641700123072": "430641700123072_122220633878482996"
+  }
  },
  {
   "data": "2026-11-17",
