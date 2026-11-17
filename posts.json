@@ -608,9 +608,15 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "Conta de R$ 800? kit 12 placas 96x R$ 381,50",
   "foto": "fotos/035.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01XknKpqDpUabCiTR4Ua71DE"
+  "agendamento": "trig_01XknKpqDpUabCiTR4Ua71DE",
+  "ids": {
+   "ig_feed": "18115076537266568",
+   "ig_story": "18090686882279567",
+   "fb_110901733778456": "110901733778456_1816737240457889",
+   "fb_430641700123072": "430641700123072_122220755186482996"
+  }
  },
  {
   "data": "2026-11-18",
