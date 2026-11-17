@@ -546,8 +546,8 @@
   }
  },
  {
-  "data": "2026-11-13",
-  "hora": "12:00",
+  "data": "2026-11-19",
+  "hora": "20:00",
   "modelo": "PARCELA × CONTA",
   "pauta": "Esperar também custa caro — kit 16 placas: R$ 1.068/mês de energia × 96x R$ 490,17 (sem entrada + carência)",
   "foto": "fotos/126.jpg",
@@ -637,5 +637,59 @@
    "2026-11-18 11h": "trig_016qripCCWHJvgeBEcDdu1ri k2-jaci",
    "2026-11-20 11h": "trig_016xm3T2behPwDuG5BdPJQXo k3-parcela"
   }
+ },
+ {
+  "data": "2026-11-20",
+  "hora": "20:00",
+  "modelo": "JÁ TEM SOLAR?",
+  "pauta": "Vai viajar no feriado? Seu telhado continua trabalhando",
+  "foto": "fotos/042.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-21",
+  "hora": "20:00",
+  "modelo": "BASTIDORES",
+  "pauta": "5 perguntas antes de fechar com qualquer empresa",
+  "foto": "fotos/022.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-22",
+  "hora": "20:00",
+  "modelo": "BLACK FRIDAY",
+  "pauta": "Black Friday sem sorteio: desconto todo mês na conta",
+  "foto": "fotos/043.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-23",
+  "hora": "20:00",
+  "modelo": "EMPRESAS",
+  "pauta": "A conta da empresa pesa no fim do mês?",
+  "foto": "fotos/014.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-24",
+  "hora": "20:00",
+  "modelo": "VOCÊ SABIA?",
+  "pauta": "Por que a conta vem alta mesmo com a casa vazia",
+  "foto": "fotos/012.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-25",
+  "hora": "20:00",
+  "modelo": "QUAL KIT?",
+  "pauta": "Olhe o kWh da sua conta e ache o seu kit",
+  "foto": "fotos/016.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
