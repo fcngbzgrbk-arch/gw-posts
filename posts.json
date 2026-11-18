@@ -624,9 +624,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Dia nublado o sistema para?",
   "foto": "fotos/140.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01KmMDFT1H3r69rqCm7bKE4X"
+  "agendamento": "trig_01KmMDFT1H3r69rqCm7bKE4X",
+  "ids": {
+   "ig_feed": "18133790608773934",
+   "ig_story": "18110354879193781",
+   "fb_110901733778456": "110901733778456_1817930430338570",
+   "fb_430641700123072": "430641700123072_122220890756482996"
+  }
  },
  {
   "data": "reels-semana-2026-11-16",
