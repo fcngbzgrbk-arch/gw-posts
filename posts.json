@@ -551,9 +551,15 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "Esperar também custa caro — kit 16 placas: R$ 1.068/mês de energia × 96x R$ 490,17 (sem entrada + carência)",
   "foto": "fotos/126.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_0116GJ4BUBG4DG6nWQZ2KKEo"
+  "agendamento": "trig_0116GJ4BUBG4DG6nWQZ2KKEo",
+  "ids": {
+   "ig_feed": "17920974375330367",
+   "ig_story": "18402791974213903",
+   "fb_110901733778456": "110901733778456_1819507976847482",
+   "fb_430641700123072": "430641700123072_122221003634482996"
+  }
  },
  {
   "data": "2026-11-14",
