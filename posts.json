@@ -657,9 +657,15 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Vai viajar no feriado? Seu telhado continua trabalhando",
   "foto": "fotos/042.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01RwjjNytYazyiaBzzbidihz"
+  "agendamento": "trig_01RwjjNytYazyiaBzzbidihz",
+  "ids": {
+   "ig_feed": "18136345579670588",
+   "ig_story": "17889953565621648",
+   "fb_110901733778456": "110901733778456_1820850900046523",
+   "fb_430641700123072": "430641700123072_122221155812482996"
+  }
  },
  {
   "data": "2026-11-21",
