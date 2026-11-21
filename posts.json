@@ -673,9 +673,15 @@
   "modelo": "BASTIDORES",
   "pauta": "5 perguntas antes de fechar com qualquer empresa",
   "foto": "fotos/022.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01MW4Tv1isJnTQBwYqJGdRaA"
+  "agendamento": "trig_01MW4Tv1isJnTQBwYqJGdRaA",
+  "ids": {
+   "ig_feed": "18426613282158668",
+   "ig_story": "18122079844965745",
+   "fb_110901733778456": "110901733778456_1822058349925778",
+   "fb_430641700123072": "430641700123072_122221455644482996"
+  }
  },
  {
   "data": "2026-11-22",
