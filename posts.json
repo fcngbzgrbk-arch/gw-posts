@@ -689,9 +689,15 @@
   "modelo": "BLACK FRIDAY",
   "pauta": "Black Friday sem sorteio: desconto todo mês na conta",
   "foto": "fotos/043.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_019wHtbm1s8LDJmaV4EKHces"
+  "agendamento": "trig_019wHtbm1s8LDJmaV4EKHces",
+  "ids": {
+   "ig_feed": "18364721644302052",
+   "ig_story": "17917908792498661",
+   "fb_110901733778456": "110901733778456_1823267356471544",
+   "fb_430641700123072": "430641700123072_122221578608482996"
+  }
  },
  {
   "data": "2026-11-23",
