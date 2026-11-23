@@ -734,5 +734,68 @@
   "status": "aprovado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
   "agendamento": "trig_01MdqUqucXB3z4y1hvJz2sBx"
+ },
+ {
+  "data": "2026-11-26",
+  "hora": "20:00",
+  "modelo": "JÁ TEM SOLAR?",
+  "pauta": "Faltou luz na rua: por que o meu sistema parou?",
+  "foto": "fotos/134.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-27",
+  "hora": "20:00",
+  "modelo": "BLACK FRIDAY",
+  "pauta": "Seu 13º não precisa virar entrada — kit 8 placas",
+  "foto": "fotos/038.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-28",
+  "hora": "20:00",
+  "modelo": "PARCELA × CONTA",
+  "pauta": "Conta acima de R$ 1.000? Análise gratuita — kit 16 placas",
+  "foto": "fotos/017.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-29",
+  "hora": "20:00",
+  "modelo": "OBRA REAL",
+  "pauta": "Casa nova já nasce gerando energia",
+  "foto": "fotos/135.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-11-30",
+  "hora": "20:00",
+  "modelo": "MITO OU VERDADE?",
+  "pauta": "Verão chuvoso: o solar não compensa?",
+  "foto": "fotos/039.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-12-01",
+  "hora": "20:00",
+  "modelo": "JÁ TEM SOLAR?",
+  "pauta": "Choveu forte? 3 coisas para conferir",
+  "foto": "fotos/018.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
+ },
+ {
+  "data": "2026-12-02",
+  "hora": "20:00",
+  "modelo": "PERGUNTA RÁPIDA",
+  "pauta": "Quanto veio a sua conta de novembro?",
+  "foto": "fotos/136.jpg",
+  "status": "aguardando_aprovacao",
+  "canais": "IG feed+story, FB 2 páginas via Windsor"
  }
 ]
