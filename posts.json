@@ -705,9 +705,15 @@
   "modelo": "EMPRESAS",
   "pauta": "A conta da empresa pesa no fim do mês?",
   "foto": "fotos/014.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01Hg7RmPtDBjeDBYwo6tYLYd"
+  "agendamento": "trig_01Hg7RmPtDBjeDBYwo6tYLYd",
+  "ids": {
+   "ig_feed": "17867039454695113",
+   "ig_story": "18354085627268760",
+   "fb_110901733778456": "110901733778456_1824514119680201",
+   "fb_430641700123072": "430641700123072_122221703738482996"
+  }
  },
  {
   "data": "2026-11-24",
