@@ -721,9 +721,15 @@
   "modelo": "VOCÊ SABIA?",
   "pauta": "Por que a conta vem alta mesmo com a casa vazia",
   "foto": "fotos/012.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01GTK6LF8siP4j4wj9YBT4vk"
+  "agendamento": "trig_01GTK6LF8siP4j4wj9YBT4vk",
+  "ids": {
+   "ig_feed": "18354683116284289",
+   "ig_story": "18477652969139921",
+   "fb_110901733778456": "110901733778456_1825836666214613",
+   "fb_430641700123072": "430641700123072_122221832252482996"
+  }
  },
  {
   "data": "2026-11-25",
