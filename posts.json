@@ -737,9 +737,15 @@
   "modelo": "QUAL KIT?",
   "pauta": "Olhe o kWh da sua conta e ache o seu kit",
   "foto": "fotos/016.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01MdqUqucXB3z4y1hvJz2sBx"
+  "agendamento": "trig_01MdqUqucXB3z4y1hvJz2sBx",
+  "ids": {
+   "ig_feed": "17976743931188532",
+   "ig_story": "17992267710108757",
+   "fb_110901733778456": "110901733778456_1827279519403661",
+   "fb_430641700123072": "430641700123072_122221953080482996"
+  }
  },
  {
   "data": "2026-11-26",
