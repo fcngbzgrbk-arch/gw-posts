@@ -95,3 +95,7 @@ Todo Reels termina com "Comenta CONTA" → o Maicon (ou a Sol) responde no direc
 
 ## /corte (tirar pausas de vídeo falado)
 `python3 tools/corte.py entrada.mp4 saida.mp4 [--ruido -32] [--pausa 0.45]` — corta silêncios, mantém um respiro nas bordas. Legenda automática da fala ainda NÃO está disponível na nuvem (download do modelo de transcrição bloqueado); fazer no computador do Maicon quando estiver conectado.
+
+## Claude Ads (instalado em 25/11/2026)
+Pasta `claude-ads/` (licença MIT, github.com/AgriciDaniel/claude-ads, versão em VERSAO.txt): skill de tráfego pago. Para auditar, planejar, otimizar ou criar anúncios Meta da GW, leia primeiro `claude-ads/ads/SKILL.md` e depois a skill do assunto em `claude-ads/skills/` (ads-meta, ads-audit, ads-optimize, ads-budget, ads-creative, ads-test, ads-math, ads-competitor, ads-report, ads-landing, ads-plan).
+Dados da conta: Meta Ads 28918265461145078, campanha 120250148228720336, conjunto 120250159622700336; anúncios I1–I4. Regra do Maicon: NÃO criar, ativar, pausar ou mudar verba sem o "ok" dele (a skill também só faz rascunho sem aprovação). Métrica principal: custo por conversa no WhatsApp e quantas viram visita técnica.
