@@ -86,6 +86,8 @@ A pasta `marketing-skills/` tem métodos prontos (licença MIT, origem: github.c
 - Página de captação/landing: `cro/` e `lead-magnets/` · Indicação de clientes: `referrals/` · Concorrentes: `competitor-profiling/` · Plano de conteúdo: `content-strategy/`
 O contexto da GW que elas pedem está em `.agents/product-marketing.md`. As regras desta INSTRUCOES.md sempre prevalecem sobre as skills.
 
+Atualizado em 25/11/2026: pacote completo (53 skills). Além das já citadas, úteis para a GW: `marketing-plan`, `marketing-ideas`, `ab-testing`, `customer-research`, `sales-enablement` (material de venda), `emails`, `sms`, `analytics`, `conversion-tracking`, `seo-audit` e `ai-seo` (site), `public-relations`, `community-marketing`, `events`, `free-tools` (ex.: calculadora de economia), `pricing`, `competitors`.
+
 ## Reels com Remotion (instalado em 11/11/2026)
 Para Reels de obra/foto, use o modelo em `remotion/` (ver remotion/LEIA.md) no lugar do HTML+Playwright antigo. Entregue SEM música (o Maicon escolhe o áudio em alta no app).
 
