@@ -753,7 +753,7 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Faltou luz na rua: por que o meu sistema parou?",
   "foto": "fotos/134.jpg",
-  "status": "aguardando_aprovacao",
+  "status": "aprovado",
   "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
   "formato": "carrossel",
   "slides": [
@@ -762,7 +762,8 @@
    "posts/2026-11-26/slide03.jpg",
    "posts/2026-11-26/slide04.jpg",
    "posts/2026-11-26/slide05.jpg"
-  ]
+  ],
+  "agendamento": "trig_01LdeXZAEgY7wLyTVqeduM9d"
  },
  {
   "data": "2026-11-27",
@@ -770,8 +771,9 @@
   "modelo": "BLACK FRIDAY",
   "pauta": "A compra da Black Friday que se paga sozinha — kit 8 placas, 13º no bolso",
   "foto": "fotos/038.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01NC3StpnJ4AJWT4dXwJsSjJ"
  },
  {
   "data": "2026-11-28",
@@ -779,7 +781,7 @@
   "modelo": "PARCELA × CONTA",
   "pauta": "Carrossel: R$ 12.816 por ano na mão da CPFL — kit 16 placas",
   "foto": "fotos/017.jpg",
-  "status": "aguardando_aprovacao",
+  "status": "aprovado",
   "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
   "formato": "carrossel",
   "slides": [
@@ -788,7 +790,8 @@
    "posts/2026-11-28/slide03.jpg",
    "posts/2026-11-28/slide04.jpg",
    "posts/2026-11-28/slide05.jpg"
-  ]
+  ],
+  "agendamento": "trig_016T8wmJdYzuwTAxDtzJmFfi"
  },
  {
   "data": "2026-11-29",
@@ -796,8 +799,9 @@
   "modelo": "OBRA REAL",
   "pauta": "Casa nova já nasce gerando energia",
   "foto": "fotos/135.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_019FsVryWr6qtnWr3PJ12i6c"
  },
  {
   "data": "2026-11-30",
@@ -805,8 +809,9 @@
   "modelo": "MITO OU VERDADE?",
   "pauta": "Verão chuvoso: o solar não compensa?",
   "foto": "fotos/039.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01D15NTLFoEo3sgegKVw4WqZ"
  },
  {
   "data": "2026-12-01",
@@ -814,7 +819,7 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Choveu forte? 3 coisas para conferir",
   "foto": "fotos/018.jpg",
-  "status": "aguardando_aprovacao",
+  "status": "aprovado",
   "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
   "formato": "carrossel",
   "slides": [
@@ -823,7 +828,8 @@
    "posts/2026-12-01/slide03.jpg",
    "posts/2026-12-01/slide04.jpg",
    "posts/2026-12-01/slide05.jpg"
-  ]
+  ],
+  "agendamento": "trig_01CddPBDGLB1CQ7ALM8eqYKa"
  },
  {
   "data": "2026-12-02",
@@ -831,7 +837,8 @@
   "modelo": "PERGUNTA RÁPIDA",
   "pauta": "Quanto veio a sua conta de novembro?",
   "foto": "fotos/136.jpg",
-  "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "status": "aprovado",
+  "canais": "IG feed+story, FB 2 páginas via Windsor",
+  "agendamento": "trig_01PpR73we7RgtJXvPbj9tmQT"
  }
 ]
