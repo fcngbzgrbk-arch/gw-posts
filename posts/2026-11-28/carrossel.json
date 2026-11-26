@@ -1,0 +1,6 @@
+{"capa":{"foto":"fotos/017.jpg","selo":"CONTA ACIMA DE R$ 1.000","titulo":"R$ 12.816\n*por ano*\nna mão da CPFL","sub":"É quanto vale a energia que um kit de 16 placas gera em 12 meses. Arrasta e faz a conta.","layout":"topo","fy":0.5},
+ "slides":[
+  {"num":"01","titulo":"16 placas geram\n*~1.200 kWh/mês*","texto":"Cada placa gera em média 75 kWh por mês aqui em Rio Preto. Com a tarifa da CPFL perto de R$ 0,89, isso vale uns R$ 1.068 todo mês.","stats":[["16","placas"],["1.200","kWh/mês"],["R$ 1.068","por mês"]]},
+  {"num":"02","titulo":"Esperar 1 ano\n*custa R$ 12.816*","texto":"R$ 1.068 por mês vezes 12 meses. É o valor da energia que você continua comprando enquanto o telhado fica parado."},
+  {"num":"03","titulo":"A parcela fica\n*abaixo disso*","texto":"A partir de 96x de R$ 490,17*, sem entrada e com carência na 1ª parcela. Sempre sobra a taxa mínima da CPFL: economia média de 80%.","nota":"*Taxa a partir de 1,95% a.m., mediante simulação e aprovação de crédito."}],
+ "fim":{"titulo":"Faça a\n*análise gratuita*","texto":"Manda a foto da sua conta que a gente calcula o kit certo para o seu consumo."}}

@@ -1,0 +1,6 @@
+{"capa":{"foto":"fotos/018.jpg","selo":"JÁ TEM SOLAR?","titulo":"Choveu forte?\n*Confira 3 coisas*\nno seu sistema","sub":"Leva 2 minutos e você não precisa subir no telhado. Arrasta.","layout":"topo","fy":0.5},
+ "slides":[
+  {"num":"01","titulo":"O app mostra\n*geração normal?*","texto":"Abra o aplicativo de monitoramento e compare com um dia de sol parecido. Geração zerada em dia claro é sinal de alerta."},
+  {"num":"02","titulo":"Tem galho\n*ou sujeira?*","texto":"Olhe do chão ou pela janela. Folha, galho ou barro acumulado sobre as placas fazem o sistema gerar menos."},
+  {"num":"03","titulo":"O disjuntor\n*está ligado?*","texto":"Temporal pode desarmar o disjuntor do sistema. Confira no quadro. Se desarmar de novo, não insista e chame a GW."}],
+ "fim":{"titulo":"Algo\n*estranho?*","texto":"Não suba no telhado. Chama a GW que a gente vai até aí."}}

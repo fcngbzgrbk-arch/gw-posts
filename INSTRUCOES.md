@@ -107,3 +107,6 @@ Pasta `social-media-skills/` (MIT, github.com/charlie947/social-media-skills, ve
 
 ## Frontend Design (25/11/2026)
 Skill oficial da Anthropic, já disponível nas sessões do Claude e copiada em `frontend-design/` para referência. Usar ao criar página de captação/landing page, site da GW ou artes em HTML: direção visual intencional, tipografia e layout sem cara de modelo pronto. Manter a identidade da GW (verde-escuro, verde-limão/verde #22C55E, amarelo #FACC15, Bebas Neue + Poppins).
+
+## Carrossel (25/11/2026)
+Posts com `"formato": "carrossel"` em posts.json: gerar com `python3 carrossel.py posts/DATA/carrossel.json posts/DATA` (capa no estilo arte.py + slides no mesmo molde + slide final com WhatsApp). Publicar no Instagram com `create_carousel_post` (image_urls = slides em ordem, raw.githubusercontent), story com arte_story.jpg (capa) e no Facebook só a capa (arte_feed.jpg) com a mesma legenda. Legendas sem "emoji como marcador" e sem travessão longo (regras anti-IA da skill social).

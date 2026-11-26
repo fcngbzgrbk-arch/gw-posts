@@ -1,0 +1,6 @@
+{"capa":{"foto":"fotos/134.jpg","selo":"JÁ TEM SOLAR?","titulo":"Faltou luz na rua\ne o seu sistema\n*desligou junto*","sub":"Isso é proteção, e tem jeito de ter energia mesmo assim. Arrasta.","layout":"topo","fy":0.5},
+ "slides":[
+  {"num":"01","titulo":"Ele desliga\n*de propósito*","texto":"Quando a rede da rua cai, o sistema ligado à rede para na hora. É uma regra de segurança da distribuidora, para não mandar energia para o fio enquanto alguém trabalha no conserto."},
+  {"num":"02","titulo":"E volta\n*sozinho*","texto":"Quando a energia da rua volta, o sistema religa e continua gerando. Você não precisa fazer nada."},
+  {"num":"03","titulo":"Quer luz mesmo\n*com a rua apagada?*","texto":"Aí o caminho é um sistema com bateria. A GW projeta do zero ou como ampliação do sistema que você já tem."}],
+ "fim":{"titulo":"Comenta\n*BATERIA*","texto":"Que a gente te explica se dá para colocar bateria no seu sistema."}}

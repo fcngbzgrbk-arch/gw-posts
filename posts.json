@@ -754,13 +754,21 @@
   "pauta": "Faltou luz na rua: por que o meu sistema parou?",
   "foto": "fotos/134.jpg",
   "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
+  "formato": "carrossel",
+  "slides": [
+   "posts/2026-11-26/slide01.jpg",
+   "posts/2026-11-26/slide02.jpg",
+   "posts/2026-11-26/slide03.jpg",
+   "posts/2026-11-26/slide04.jpg",
+   "posts/2026-11-26/slide05.jpg"
+  ]
  },
  {
   "data": "2026-11-27",
   "hora": "20:00",
   "modelo": "BLACK FRIDAY",
-  "pauta": "Seu 13º não precisa virar entrada — kit 8 placas",
+  "pauta": "A compra da Black Friday que se paga sozinha — kit 8 placas, 13º no bolso",
   "foto": "fotos/038.jpg",
   "status": "aguardando_aprovacao",
   "canais": "IG feed+story, FB 2 páginas via Windsor"
@@ -769,10 +777,18 @@
   "data": "2026-11-28",
   "hora": "20:00",
   "modelo": "PARCELA × CONTA",
-  "pauta": "Conta acima de R$ 1.000? Análise gratuita — kit 16 placas",
+  "pauta": "Carrossel: R$ 12.816 por ano na mão da CPFL — kit 16 placas",
   "foto": "fotos/017.jpg",
   "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
+  "formato": "carrossel",
+  "slides": [
+   "posts/2026-11-28/slide01.jpg",
+   "posts/2026-11-28/slide02.jpg",
+   "posts/2026-11-28/slide03.jpg",
+   "posts/2026-11-28/slide04.jpg",
+   "posts/2026-11-28/slide05.jpg"
+  ]
  },
  {
   "data": "2026-11-29",
@@ -799,7 +815,15 @@
   "pauta": "Choveu forte? 3 coisas para conferir",
   "foto": "fotos/018.jpg",
   "status": "aguardando_aprovacao",
-  "canais": "IG feed+story, FB 2 páginas via Windsor"
+  "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
+  "formato": "carrossel",
+  "slides": [
+   "posts/2026-12-01/slide01.jpg",
+   "posts/2026-12-01/slide02.jpg",
+   "posts/2026-12-01/slide03.jpg",
+   "posts/2026-12-01/slide04.jpg",
+   "posts/2026-12-01/slide05.jpg"
+  ]
  },
  {
   "data": "2026-12-02",
