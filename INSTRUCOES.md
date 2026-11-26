@@ -102,3 +102,6 @@ Dados da conta: Meta Ads 28918265461145078, campanha 120250148228720336, conjunt
 
 ## Social Media Skills (instalado em 25/11/2026)
 Pasta `social-media-skills/` (MIT, github.com/charlie947/social-media-skills, versão em VERSAO.txt): 17 skills de conteúdo. Úteis para a GW: `hook-generator` (ganchos), `reels-scripting` (roteiro de Reels), `content-matrix` (pautas), `niche-research`, `post-scorer` (nota do post antes de publicar), `profile-optimizer` (bio do Instagram), `pinned-comment`, `analytics-dashboard`. Várias foram pensadas para LinkedIn: adaptar para Instagram/Facebook. Elas leem `about-me.md` e `voice.md` (na raiz do repositório, montados com as regras da GW). As regras desta INSTRUCOES.md prevalecem.
+
+## Frontend Design (25/11/2026)
+Skill oficial da Anthropic, já disponível nas sessões do Claude e copiada em `frontend-design/` para referência. Usar ao criar página de captação/landing page, site da GW ou artes em HTML: direção visual intencional, tipografia e layout sem cara de modelo pronto. Manter a identidade da GW (verde-escuro, verde-limão/verde #22C55E, amarelo #FACC15, Bebas Neue + Poppins).
