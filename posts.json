@@ -753,7 +753,7 @@
   "modelo": "JÁ TEM SOLAR?",
   "pauta": "Faltou luz na rua: por que o meu sistema parou?",
   "foto": "fotos/134.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG carrossel (create_carousel_post) + story (capa); FB 2 páginas com a capa (arte_feed.jpg)",
   "formato": "carrossel",
   "slides": [
@@ -763,7 +763,14 @@
    "posts/2026-11-26/slide04.jpg",
    "posts/2026-11-26/slide05.jpg"
   ],
-  "agendamento": "trig_01LdeXZAEgY7wLyTVqeduM9d"
+  "agendamento": "trig_01LdeXZAEgY7wLyTVqeduM9d",
+  "ids": {
+   "publicado_em": "2026-11-27 20:05 (atrasado: aprovação da ação expirou em 26/11)",
+   "ig_media": "18113832974213275",
+   "ig_story": "18114356606612293",
+   "fb_110901733778456": "110901733778456_1829953669136246",
+   "fb_430641700123072": "430641700123072_122222235878482996"
+  }
  },
  {
   "data": "2026-11-27",
@@ -771,9 +778,16 @@
   "modelo": "BLACK FRIDAY",
   "pauta": "A compra da Black Friday que se paga sozinha — kit 8 placas, 13º no bolso",
   "foto": "fotos/038.jpg",
-  "status": "aprovado",
+  "status": "publicado",
   "canais": "IG feed+story, FB 2 páginas via Windsor",
-  "agendamento": "trig_01NC3StpnJ4AJWT4dXwJsSjJ"
+  "agendamento": "trig_01NC3StpnJ4AJWT4dXwJsSjJ",
+  "ids": {
+   "publicado_em": "2026-11-27 20:00",
+   "ig_media": "18191177095370553",
+   "ig_story": "18120131918145574",
+   "fb_110901733778456": "110901733778456_1829952752469671",
+   "fb_430641700123072": "430641700123072_122222235572482996"
+  }
  },
  {
   "data": "2026-11-28",

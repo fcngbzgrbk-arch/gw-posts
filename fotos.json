@@ -326,7 +326,7 @@
   "drone": true,
   "tipo": "instalacao",
   "orientacao": "paisagem",
-  "status": "disponivel",
+  "status": "usada",
   "uso": null
  },
  {
@@ -1140,7 +1140,7 @@
   "drone": true,
   "tipo": "instalacao",
   "orientacao": "paisagem",
-  "status": "disponivel",
+  "status": "usada",
   "uso": null
  },
  {
